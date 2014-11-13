@@ -1,0 +1,19 @@
+{
+	"author": "ChavP",
+	"name": "chavp-censority",
+	"version": "0.1.1",
+	"description": "Censors words out of text",
+	"main": "censortext",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/chavp/node-lab/tree/master/censorify"
+	},
+	"keywords": [
+		"censor", 
+		"words"
+	],
+	"dependencies": {},
+	"engines": {
+		"node": "*"
+	}
+}
