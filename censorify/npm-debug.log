@@ -22,28 +22,28 @@
 8 verbose parsed url   href: '.' }
 9 silly lockFile 3a52ce78- .
 10 verbose lock . C:\Users\admin\AppData\Roaming\npm-cache\3a52ce78-.lock
-11 verbose tar pack [ 'C:\\Users\\admin\\AppData\\Roaming\\npm-cache\\ChavP-censority\\0.1.1\\package.tgz',
+11 verbose tar pack [ 'C:\\Users\\admin\\AppData\\Roaming\\npm-cache\\chavpcensorify\\0.1.2\\package.tgz',
 11 verbose tar pack   '.' ]
-12 verbose tarball C:\Users\admin\AppData\Roaming\npm-cache\ChavP-censority\0.1.1\package.tgz
+12 verbose tarball C:\Users\admin\AppData\Roaming\npm-cache\chavpcensorify\0.1.2\package.tgz
 13 verbose folder .
-14 info prepublish ChavP-censority@0.1.1
+14 info prepublish chavpcensorify@0.1.2
 15 silly lockFile 1f1177db-tar tar://.
 16 verbose lock tar://. C:\Users\admin\AppData\Roaming\npm-cache\1f1177db-tar.lock
-17 silly lockFile 8f62656c-havP-censority-0-1-1-package-tgz tar://C:\Users\admin\AppData\Roaming\npm-cache\ChavP-censority\0.1.1\package.tgz
-18 verbose lock tar://C:\Users\admin\AppData\Roaming\npm-cache\ChavP-censority\0.1.1\package.tgz C:\Users\admin\AppData\Roaming\npm-cache\8f62656c-havP-censority-0-1-1-package-tgz.lock
+17 silly lockFile 052e79a1-chavpcensorify-0-1-2-package-tgz tar://C:\Users\admin\AppData\Roaming\npm-cache\chavpcensorify\0.1.2\package.tgz
+18 verbose lock tar://C:\Users\admin\AppData\Roaming\npm-cache\chavpcensorify\0.1.2\package.tgz C:\Users\admin\AppData\Roaming\npm-cache\052e79a1-chavpcensorify-0-1-2-package-tgz.lock
 19 silly lockFile 1f1177db-tar tar://.
 20 silly lockFile 1f1177db-tar tar://.
-21 silly lockFile 8f62656c-havP-censority-0-1-1-package-tgz tar://C:\Users\admin\AppData\Roaming\npm-cache\ChavP-censority\0.1.1\package.tgz
-22 silly lockFile 8f62656c-havP-censority-0-1-1-package-tgz tar://C:\Users\admin\AppData\Roaming\npm-cache\ChavP-censority\0.1.1\package.tgz
-23 silly lockFile 1bac5a01-he-ChavP-censority-0-1-1-package C:\Users\admin\AppData\Roaming\npm-cache\ChavP-censority\0.1.1\package
-24 verbose lock C:\Users\admin\AppData\Roaming\npm-cache\ChavP-censority\0.1.1\package C:\Users\admin\AppData\Roaming\npm-cache\1bac5a01-he-ChavP-censority-0-1-1-package.lock
-25 silly lockFile 1bac5a01-he-ChavP-censority-0-1-1-package C:\Users\admin\AppData\Roaming\npm-cache\ChavP-censority\0.1.1\package
-26 silly lockFile 1bac5a01-he-ChavP-censority-0-1-1-package C:\Users\admin\AppData\Roaming\npm-cache\ChavP-censority\0.1.1\package
+21 silly lockFile 052e79a1-chavpcensorify-0-1-2-package-tgz tar://C:\Users\admin\AppData\Roaming\npm-cache\chavpcensorify\0.1.2\package.tgz
+22 silly lockFile 052e79a1-chavpcensorify-0-1-2-package-tgz tar://C:\Users\admin\AppData\Roaming\npm-cache\chavpcensorify\0.1.2\package.tgz
+23 silly lockFile 929e11c8-che-chavpcensorify-0-1-2-package C:\Users\admin\AppData\Roaming\npm-cache\chavpcensorify\0.1.2\package
+24 verbose lock C:\Users\admin\AppData\Roaming\npm-cache\chavpcensorify\0.1.2\package C:\Users\admin\AppData\Roaming\npm-cache\929e11c8-che-chavpcensorify-0-1-2-package.lock
+25 silly lockFile 929e11c8-che-chavpcensorify-0-1-2-package C:\Users\admin\AppData\Roaming\npm-cache\chavpcensorify\0.1.2\package
+26 silly lockFile 929e11c8-che-chavpcensorify-0-1-2-package C:\Users\admin\AppData\Roaming\npm-cache\chavpcensorify\0.1.2\package
 27 silly lockFile 3a52ce78- .
 28 silly lockFile 3a52ce78- .
 29 silly publish { author: { name: 'ChavP' },
-29 silly publish   name: 'ChavP-censority',
-29 silly publish   version: '0.1.1',
+29 silly publish   name: 'chavpcensorify',
+29 silly publish   version: '0.1.2',
 29 silly publish   description: 'Censors words out of text',
 29 silly publish   main: 'censortext',
 29 silly publish   repository:
@@ -54,35 +54,38 @@
 29 silly publish   engines: { node: '*' },
 29 silly publish   readme: 'ERROR: No README data found!',
 29 silly publish   readmeFilename: 'README.md',
-29 silly publish   _id: 'ChavP-censority@0.1.1',
+29 silly publish   _id: 'chavpcensorify@0.1.2',
 29 silly publish   scripts: {},
-29 silly publish   _shasum: 'a6daf6a0f0f76aa58782e86d9118c398e6cbfcc4',
+29 silly publish   _shasum: '0eff5140a13c59bfe332792caaa4771d4e031935',
 29 silly publish   _from: '.' }
-30 verbose request where is /ChavP-censority
+30 verbose request where is /chavpcensorify
 31 verbose request registry https://registry.npmjs.org/
-32 verbose request id 527d55f4fbe61ed9
-33 verbose url raw /ChavP-censority
-34 verbose url resolving [ 'https://registry.npmjs.org/', './ChavP-censority' ]
-35 verbose url resolved https://registry.npmjs.org/ChavP-censority
-36 verbose request where is https://registry.npmjs.org/ChavP-censority
-37 info trying registry request attempt 1 at 14:20:45
-38 http PUT https://registry.npmjs.org/ChavP-censority
-39 http 403 https://registry.npmjs.org/ChavP-censority
-40 verbose headers { date: 'Thu, 13 Nov 2014 07:20:46 GMT',
+32 verbose request id 8b526528ebbdc531
+33 verbose url raw /chavpcensorify
+34 verbose url resolving [ 'https://registry.npmjs.org/', './chavpcensorify' ]
+35 verbose url resolved https://registry.npmjs.org/chavpcensorify
+36 verbose request where is https://registry.npmjs.org/chavpcensorify
+37 info trying registry request attempt 1 at 14:59:29
+38 http PUT https://registry.npmjs.org/chavpcensorify
+39 http 403 https://registry.npmjs.org/chavpcensorify
+40 verbose headers { date: 'Thu, 13 Nov 2014 07:59:30 GMT',
 40 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
 40 verbose headers   'content-type': 'application/json',
 40 verbose headers   'cache-control': 'max-age=60',
-40 verbose headers   'content-length': '76',
+40 verbose headers   'content-length': '230',
 40 verbose headers   'accept-ranges': 'bytes',
 40 verbose headers   via: '1.1 varnish',
 40 verbose headers   'x-served-by': 'cache-sjc3123-SJC',
 40 verbose headers   'x-cache': 'MISS',
 40 verbose headers   'x-cache-hits': '0',
-40 verbose headers   'x-timer': 'S1415863246.709952,VS0,VE130',
+40 verbose headers   'x-timer': 'S1415865570.823728,VS0,VE39',
 40 verbose headers   'keep-alive': 'timeout=10, max=50',
 40 verbose headers   connection: 'Keep-Alive' }
 41 error publish Failed PUT 403
-42 error Error: forbidden New packages must have all-lowercase names: ChavP-censority
+42 error Error: forbidden Attempting to modify version 0.1.2,
+42 error which was previously published on 2014-11-13T07:54:00.764Z.
+42 error This is forbidden, to maintain package integrity.
+42 error Please update the version number and try again.: chavpcensorify
 42 error     at RegClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:308:14)
 42 error     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:246:65)
 42 error     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:236:22)

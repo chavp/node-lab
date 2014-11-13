@@ -1,0 +1,74 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'chavp-censority' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose cache add [ 'chavp-censority', null ]
+6 verbose cache add name=undefined spec="chavp-censority" args=["chavp-censority",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'chavp-censority',
+7 verbose parsed url   path: 'chavp-censority',
+7 verbose parsed url   href: 'chavp-censority' }
+8 silly lockFile c9fc678d-chavp-censority chavp-censority
+9 verbose lock chavp-censority C:\Users\admin\AppData\Roaming\npm-cache\c9fc678d-chavp-censority.lock
+10 silly lockFile c9fc678d-chavp-censority chavp-censority
+11 silly lockFile c9fc678d-chavp-censority chavp-censority
+12 verbose addNamed [ 'chavp-censority', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile 4e27ba1f-chavp-censority chavp-censority@
+15 verbose lock chavp-censority@ C:\Users\admin\AppData\Roaming\npm-cache\4e27ba1f-chavp-censority.lock
+16 silly addNameRange { name: 'chavp-censority', range: '*', hasData: false }
+17 verbose request where is /chavp-censority
+18 verbose request registry https://registry.npmjs.org/
+19 verbose request id 37f573d129733230
+20 verbose url raw /chavp-censority
+21 verbose url resolving [ 'https://registry.npmjs.org/', './chavp-censority' ]
+22 verbose url resolved https://registry.npmjs.org/chavp-censority
+23 verbose request where is https://registry.npmjs.org/chavp-censority
+24 info trying registry request attempt 1 at 14:59:52
+25 http GET https://registry.npmjs.org/chavp-censority
+26 http 404 https://registry.npmjs.org/chavp-censority
+27 silly registry.get cb [ 404,
+27 silly registry.get   { date: 'Thu, 13 Nov 2014 07:59:53 GMT',
+27 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+27 silly registry.get     etag: '"2LHO5Q2URZMOIXFK5LS5O3V7E"',
+27 silly registry.get     'content-type': 'application/json',
+27 silly registry.get     'cache-control': 'max-age=0',
+27 silly registry.get     'content-length': '520',
+27 silly registry.get     'accept-ranges': 'bytes',
+27 silly registry.get     via: '1.1 varnish',
+27 silly registry.get     age: '0',
+27 silly registry.get     'x-served-by': 'cache-sjc3134-SJC',
+27 silly registry.get     'x-cache': 'MISS',
+27 silly registry.get     'x-cache-hits': '0',
+27 silly registry.get     'x-timer': 'S1415865593.218850,VS0,VE158',
+27 silly registry.get     vary: 'Accept',
+27 silly registry.get     'keep-alive': 'timeout=10, max=50',
+27 silly registry.get     connection: 'Keep-Alive' } ]
+28 silly lockFile 4e27ba1f-chavp-censority chavp-censority@
+29 silly lockFile 4e27ba1f-chavp-censority chavp-censority@
+30 error 404 Not Found
+30 error 404
+30 error 404 'chavp-censority' is not in the npm registry.
+30 error 404 You should bug the author to publish it
+30 error 404
+30 error 404 Note that you can also install from a
+30 error 404 tarball, folder, or http url, or git url.
+31 error System Windows_NT 6.1.7601
+32 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "chavp-censority"
+33 error cwd D:\projects\Nodejs\node-lab\readwords
+34 error node -v v0.10.33
+35 error npm -v 1.4.28
+36 error code E404
+37 verbose exit [ 1, true ]
