@@ -3,7 +3,7 @@ var options = {
     host: '127.0.0.1',
     path: '/',
     port: '8888',
-    methos: 'POST'
+    method: 'POST'
 };
 function readJSONResponse(response) {
     var responseData = '';
@@ -18,5 +18,5 @@ function readJSONResponse(response) {
     });
 }
 var req = http.request(options, readJSONResponse);
-req.write('{"name": "Bilbo", "occupation": "Burglar"}');
+req.write('{"name":"Bilbo", "occupation":"Burglar"}');
 req.end();

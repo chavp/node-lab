@@ -2,7 +2,7 @@ var http = require('http');
 var url = require('url');
 var qstring = require('querystring');
 function sendResponse(weatherData, res) {
-    var page = '' +
+    var page = '<html><head><title>External Example</title></head>' +
         '<body>' +
         '<form method="post">' +
         'City: <input name="city"><br>' +
@@ -11,7 +11,7 @@ function sendResponse(weatherData, res) {
     if (weatherData) {
         page += '<h1>Weather Info</h1><p>' + weatherData + '</p>';
     }
-    page += '</doby></html>';
+    page += '</body></html>';
     res.end(page);
 }
 function parseWeather(weatherResponse, res) {
@@ -23,12 +23,12 @@ function parseWeather(weatherResponse, res) {
         sendResponse(weatherData, res);
     });
 }
-function getWeater(city, res) {
+function getWeather(city, res) {
     var options = {
-        host: 'api.openweather.org',
+        host: 'api.openweathermap.org',
         path: '/data/2.5/weather?q=' + city
     };
-    http.require(options, function (weatherResponse) {
+    http.request(options, function (weatherResponse) {
         parseWeather(weatherResponse, res);
     }).end();
 }
@@ -41,7 +41,7 @@ http.createServer(function (req, res) {
         });
         req.on('end', function () {
             var postParams = qstring.parse(reqData);
-            getWeater(postParams.city, res);
+            getWeather(postParams.city, res);
         });
     } else {
         sendResponse(null, res);
